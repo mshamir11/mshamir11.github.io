@@ -1,0 +1,130 @@
+/*new padding*/
+
+.new_padding{
+  padding-left:90px;
+}
+
+.sidenav {
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 90px;
+  left:20px;
+  bottom: 3px;
+  background: #ffffff;
+  overflow-x: hidden;
+  padding: 8px 0;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color:    #333333;
+  display: block;
+}
+
+.sidenav a:hover {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 200px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 600px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav:hover {opacity: 1}
+.name {
+  
+  font-size: 20px;
+  font-weight: normal;
+  color:    #333333;
+
+}
+.description{
+
+  font-size: 12px;
+  font-weight: normal;
+  color: #333333;
+
+}
+
+
+.main-nav{
+
+  border-bottom:1px 
+  solid gray;
+  padding-bottom:10px};
+
+.navbar-custom { 
+            background-color: black; 
+            z-index: 1000;
+            font-size: 20px;
+            color: #333333;
+        } 
+        /* Modify brand and text color */ 
+          
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+h1{
+  padding-left: 300px;
+  padding-top: 30px;
+  color: #6A6A6A;
+;
+  font-weight: bold;
+}
+
+.p_description{
+  padding-left: 300px;
+  padding-top: 10px;
+  padding-right: 200px;
+  color: #6A6A6A;
+  font-weight: normal;
+  font-size: 17px;
+
+}
+
+.description_email{
+  font-size: 12px;
+  font-weight: bold;
+  color:   #333333;
+
+}
+
+.border_line{
+  background-color: lightgray;
+  padding-bottom: 3px;
+  font-size: 1px;
+
+}
