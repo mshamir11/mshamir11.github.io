@@ -2,20 +2,27 @@
 <html>
   <head>
     <title>Shamir's website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utils/styles.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="utils/scripts.js"></script>
   </head>
   <body>
-    <div class="nav-bar">
-      <span><a href="./index.html">About Me</a></span> <span>Present Projects</span> <span>My Interests</span> 
-    </div>
-    <div class="horizontal-line">
-      
-    </div>
+    <!-- Navbar -->
+    <div id="nav-bar"></div>
+
     <div class="about-me">
       <h1>Projects that I'm working on</h1>
       <ui>
-            <li>Chat Assistant using GPT 3</li>
-            <li>Snippet Share</li>
+        <div class="chat-assistant">
+          <li>Chat Assistant using GPT 3</li>
+          <p>
+            What are the areas where a chat bot can be helpful? - The only place
+            that I have used a chat bot is in a customer support use case. Have
+            not encountered its use anywhere till now.
+          </p>
+        </div>
+
+        <li>Snippet Share</li>
       </ui>
     </div>
   </body>
