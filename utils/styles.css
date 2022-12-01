@@ -21,3 +21,9 @@
     margin-top: 20px;
     margin : 10px;
 }
+
+a {
+    text-decoration:none;
+    color: inherit;
+    font-weight: bold;
+}
