@@ -1,7 +1,6 @@
 ## TODO
 
-1. Commands for creating docsify pages and hosting on github.
-2. Make the fonts custom.
+1. Add a list of tech topics that needs to be mastered.
 
 ### Tools to Explore
 1. Gitbooks
